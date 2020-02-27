@@ -8,6 +8,7 @@ public class Gravitacija {
 		final double M = 5.972* (Math.pow(10, 24));
 		final double r = 6.371*(Math.pow(10, 6));
 		double a = (C*M)/((r+visina)*(r+visina));
+		System.out.println("Miha pravi da je nadmorska višina: " + visina);
 		System.out.println(a);
 	}
 
