@@ -10,6 +10,7 @@ public class Gravitacija {
 		double a = (C*M)/((r+visina)*(r+visina));
 		System.out.println("Miha pravi da je nadmorska višina: " + visina);
 		System.out.println(a);
+		System.out.println("ziga");
 	}
 
 }
